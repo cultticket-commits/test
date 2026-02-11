@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>GKTools 自動POSTツール インストール</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+  }
+  .card {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.1);
+  }
+  h1 { font-size: 22px; }
+  h2 { font-size: 18px; margin-top: 24px; }
+  a.button {
+    display: block;
+    margin: 12px 0;
+    padding: 14px;
+    text-align: center;
+    background: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  .note {
+    background: #fff3cd;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h1>GKTools 自動POSTツール</h1>
+  <p>
+    シミュレーターの計算結果を<br>
+    <b>自動で記録・送信</b>するツールです。
+  </p>
+
+  <h2>💻 PC / Android の方</h2>
+  <ol>
+    <li>Tampermonkey をインストール</li>
+    <li>下のボタンを押す</li>
+  </ol>
+
+  <a class="button" href="https://raw.githubusercontent.com/USER/REPO/main/gktools.user.js">
+    ▶ Userscript をインストール
+  </a>
+
+  <h2>📱 iPhone の方</h2>
+  <ol>
+    <li>下のテキストをコピー</li>
+    <li>ブックマークとして登録</li>
+    <li>シミュレーター画面で実行</li>
+  </ol>
+
+  <a class="button" href="bookmarklet.txt">
+    ▶ iPhone用コードを見る
+  </a>
+
+  <div class="note">
+    🔒 このツールは  
+    ・スコア  
+    ・現在のURL  
+    のみを送信します。  
+    アカウント情報は取得しません。
+  </div>
+</div>
+
+</body>
+</html>
